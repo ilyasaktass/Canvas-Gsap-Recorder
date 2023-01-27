@@ -32,7 +32,7 @@ function CanvasRecorder() {
 
   return (
     <div>
-      <canvas id="canvas" width={500} height={500} />
+      <canvas id="canvas" style={{backgroundColor:'gray'}} width={500} height={500} />
       <button onClick={startRecording}>Start Recording</button>
       <button onClick={stopRecording}>Stop Recording</button>
     </div>
